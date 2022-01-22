@@ -5,9 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Calculator</title>
-    <meta name="title" content="Calculator" />
+    <meta name="title" content="Millioner" />
     <!-- Favicon  -->
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
-  <body></body>
+  <body>
+    <div id="timer_inp">60</div>
+    <div class="helps">
+      <div class="helps_fifty round"><p>50/50</p></div>
+      <div class="helps_call round">
+        <img src="./img/call.png" alt="call" />
+      </div>
+      <div class="helps_game-end round">
+        <img src="./img/finish.png" alt="end" />
+      </div>
+    </div>
+    <div class="logo">
+      <img src="./img/logo.png" alt="millioner" />
+    </div>
+    <h3 class="question">
+      Какой знак восточного гороскопа следует за знаком Дракона?
+    </h3>
+    <div class="answers">
+      <div class="answer">
+        <div class="answer_wrap topL">Кот Кролик</div>
+        <div class="answer_wrap topR">Змея</div>
+        <div class="answer_wrap bottomL">Собака</div>
+        <div class="answer_wrap bottomR">Крыса</div>
+      </div>
+    </div>
+
+    <div class="price number">
+      <ul class="price_count">
+        <li>1 <span>💸</span></li>
+        <li>2 <span>💸</span></li>
+        <li>3 <span>💸</span></li>
+        <li>4 <span>💸</span></li>
+        <li>5 <span>💸</span></li>
+        <li>6 <span>💸</span></li>
+        <li>7 <span>💸</span></li>
+        <li>8 <span>💸</span></li>
+        <li>9 <span>💸</span></li>
+        <li>10 <span>💸</span></li>
+        <li>11 <span>💸</span></li>
+        <li>12 <span>💸</span></li>
+        <li>13 <span>💸</span></li>
+        <li>14 <span>💸</span></li>
+        <li>15 <span>💸</span></li>
+      </ul>
+      <ul class="price_list">
+        <li class="active">100</li>
+        <li>200</li>
+        <li>300</li>
+        <li>500</li>
+        <li>1 000</li>
+        <li>2 000</li>
+        <li>4 000</li>
+        <li>8 000</li>
+        <li>16 000</li>
+        <li>32 000</li>
+        <li>64 000</li>
+        <li>125 000</li>
+        <li>250 000</li>
+        <li>500 000</li>
+        <li>1 000 000</li>
+      </ul>
+    </div>
+
+    <!-- <div class="start">
+      <form action="">
+        <input
+          type="text"
+          id="user"
+          name="user"
+          required
+          placeholder="Введите Ваше имя"
+        />
+        <input type="submit" id="start" />
+      </form>
+    </div> -->
+
+    <div class="end">
+      <h1>ИГРА ОКОНЧЕНА</h1>
+      <h3 class="showResult">ВЫ ПРОИГРАЛИ</h3>
+    </div>
+
+    <div class="reStart">
+      <h1 class="hellow"></h1>
+      <button id="startGame">НАЧАТЬ ИГРУ</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
 </html>
